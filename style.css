@@ -1,0 +1,113 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+    
+}
+body{
+    
+    background-color: aquamarine;
+    
+    
+}
+h1{
+    
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+    
+    
+}.row1{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap:10px;
+    grid-template-rows: 1
+    padding: 20 2 20 2;
+    position: relative;
+    width: 38%;
+    margin: auto;
+    top: 110px;
+    font-size: 22px;
+   right: 40px
+        
+    
+    
+    
+     
+    
+}
+ .basic{
+    background-color: darkgoldenrod;
+     
+     width: 200px;
+     padding-bottom: 10px;
+     padding-top: 10px;
+     text-align: center;
+     
+     
+     
+    
+    
+}
+.dollars{
+    
+  grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1;
+   grid-column-gap: 6px;
+    grid-row-start: 2;
+   text-align: center;
+    width: 200px;
+   
+white-space: nowrap;
+    background-color: darkslateblue
+   
+    
+    
+    
+}
+.para{
+    line-height: 60px;
+    text-align: center;
+    background-color: white;
+    height: 295px;
+    width: 200px;
+    
+    
+}
+.Premuim{
+    text-align: center;
+    background-color: purple;
+      width: 200px;
+     padding-bottom: 10px;
+     padding-top: 10px;
+     text-align: center;
+    
+}
+.Premuim , .basic , .Standard {border-radius: 10px;
+    
+}
+.Standard{
+    text-align: center;
+      width: 200px;
+     padding-bottom: 10px;
+     padding-top: 10px;
+     text-align: center;
+    background-color: cadetblue
+}
+footer{
+    
+    text-align: center;
+    position: relative;
+    top: 150px;
+    
+    
+}
+.para button{
+    border-radius: 20px;
+    border: none;
+    padding: 1px 15px 1px 15px;
+    cursor: pointer;
+    
+}
